@@ -1,0 +1,1245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="Previewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Navbar</title>
+
+  <!-- ✅ Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- ✅ Google Fonts: Chakra Petch (Headings), Outfit (Text & Buttons) -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&family=Outfit:wght@400;600&display=swap"
+    rel="stylesheet" />
+
+  <!-- ✅ Font Awesome for social icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <!-- ✅ Navbar Start -->
+<!-- ✅ Navbar Start -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <!-- Logo -->
+    <a class="navbar-brand" href="#">
+      <img src="images/LOGO.png" alt="Logo" height="50">
+    </a>
+
+    <!-- Hamburger for mobile -->
+    <button class="navbar-toggler" type="button">
+  <span class="hamburger-icon"></span>
+</button>
+
+    <!-- Navbar links -->
+    <div class="navbar-collapse" id="mobileMenu">
+      <ul class="navbar-nav mb-2 mb-lg-0 gap-3">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#testimonial">Testimonials</a></li>
+        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+      </ul>
+
+      <!-- Social Icons -->
+      <div class="d-flex align-items-center mt-3 mt-lg-0">
+        <div class="social-icons ms-3">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fas fa-briefcase"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- ✅ Navbar End -->
+
+
+
+  <section class="hero">
+    <div class="container">
+
+      <div class="row align-items-center justify-content-center ">
+
+        <!-- LEFT CONTENT -->
+
+        <div class="col-lg-6 hero-left">
+
+          <h5 class="hero-tag">Hello</h5
+            >
+
+          <h1 class="hero-title">
+          I'm Allah Dino <br>
+            <span>Frontend & WordPress Developer</span>
+          </h1>
+
+          <p class="hero-text">
+            I design and develop modern, responsive and high-performance websites using HTML, CSS, JavaScript and
+            WordPress.
+          </p>
+
+          <div class="hero-buttons">
+
+            <a href="images/cv.pdf" class="btn-primary"  target="_blank" onclick="download">Download CV</a>
+
+            <a href="https://wa.me/923490396533" class="btn-outline">Hire Me</a>
+
+          </div>
+
+        </div>
+
+
+        <!-- RIGHT IMAGE -->
+
+        <div class="col-lg-6 hero-right">
+
+          <div class="hero-image">
+
+            <img src="images/ad.png" alt="profile">
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="stats-section">
+
+    <div class="container">
+
+      <div class="row justify-content-center g-4">
+
+        <!-- EXPERIENCE -->
+
+        <div class="col-md-3 col-6">
+
+          <div class="stat-card filled">
+
+            <div class="stat-icon">
+              <i class="fa-solid fa-briefcase"></i>
+            </div>
+
+            <h3 id="experienceCounter">0</h3>
+            <p>Years Experience</p>
+
+          </div>
+
+        </div>
+
+
+        <!-- PROJECTS -->
+
+        <div class="col-md-3 col-6">
+
+          <div class="stat-card outline">
+
+            <div class="stat-icon">
+              <i class="fa-solid fa-code"></i>
+            </div>
+
+            <h3 id="projectsCounter">0</h3>
+            <p>Projects Done</p>
+
+          </div>
+
+        </div>
+
+
+        <!-- CLIENTS -->
+
+        <div class="col-md-3 col-6">
+
+          <div class="stat-card filled">
+
+            <div class="stat-icon">
+              <i class="fa-solid fa-users"></i>
+            </div>
+
+            <h3 id="clientsCounter">0</h3>
+            <p>Happy Clients</p>
+
+          </div>
+
+        </div>
+
+
+        <!-- AWARDS -->
+
+        <div class="col-md-3 col-6">
+
+          <div class="stat-card outline">
+
+            <div class="stat-icon">
+              <i class="fa-solid fa-trophy"></i>
+            </div>
+
+            <h3 id="awardsCounter">0</h3>
+            <p>Awards</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+
+
+  <section  class="about-section" id="about">
+
+    <div class="container">
+
+      <div class="about-wrapper">
+
+        <!-- IMAGE SIDE -->
+
+        <div class="about-image">
+
+          <img src="images/about.png" alt="About Image">
+
+        </div>
+
+
+        <!-- CONTENT SIDE -->
+
+        <div class="about-content">
+
+          <h5 class="about-tag">About Me</h5>
+
+          <h2 class="about-title">
+            Passionate <span>Frontend & WordPress</span> Developer
+          </h2>
+
+          <p class="about-text">
+
+            I am a professional frontend and WordPress developer with strong
+            experience in creating modern, responsive and user-friendly websites.
+            I focus on clean design, performance and great user experience.
+
+          </p>
+
+
+          <!-- FEATURES -->
+
+          <div class="about-features">
+
+            <div class="feature-item">
+
+              <i class="fa-solid fa-code"></i>
+
+              <div>
+                <h4>Clean Code</h4>
+                <p>Optimized and maintainable coding standards.</p>
+              </div>
+
+            </div>
+
+
+            <div class="feature-item">
+
+              <i class="fa-solid fa-laptop-code"></i>
+
+              <div>
+                <h4>Modern Design</h4>
+                <p>Creative UI with smooth user experience.</p>
+              </div>
+
+            </div>
+
+
+            <div class="feature-item">
+
+              <i class="fa-solid fa-bolt"></i>
+
+              <div>
+                <h4>Fast Performance</h4>
+                <p>Highly optimized websites for speed.</p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Skills -->
+
+
+
+  <section id="skill" class="skills-section">
+    <div class="container">
+      <h5 class="section-tag">My Skills</h5>
+      <h2 class="section-title">What I Do Best</h2>
+
+      <div class="skills-wrapper two-columns">
+
+        <!-- Left Column -->
+        <div class="skills-column">
+          <div class="skill">
+            <div class="skill-info">
+              <span>HTML5</span>
+              <span class="skill-percent">90%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="90%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-info">
+              <span>CSS3</span>
+              <span class="skill-percent">80%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="80%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-info">
+              <span>JavaScript</span>
+              <span class="skill-percent">70%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="70%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-info">
+              <span>WordPress</span>
+              <span class="skill-percent">90%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="90%"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="skills-column">
+          <div class="skill">
+            <div class="skill-info">
+              <span>Elementor Pro</span>
+              <span class="skill-percent">85%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="85%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-info">
+              <span>Ecommerce</span>
+              <span class="skill-percent">78%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="78%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-info">
+              <span>ACF</span>
+              <span class="skill-percent">80%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="80%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-info">
+              <span>Responsive Design</span>
+              <span class="skill-percent">95%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="95%"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Portfolio -->
+
+
+  <section id="portfolio" class="portfolio-section" >
+    <div class="container">
+      <span class="section-tag">My Work</span>
+      <h2 class="section-title">Recent Projects</h2>
+
+      <div class="portfolio-grid-wrapper">
+        <div class="portfolio-grid" id="portfolioGrid">
+          <!-- 16 cards repeating 1-4 images -->
+          <div class="portfolio-card">
+            <div class="portfolio-image"><img src="images/1.png" alt="Project 1"></div>
+            <div class="portfolio-content">
+              <h4>Home Care & Comfort Living</h4>
+              <div class="skills-row">
+                <span class="project-skills">WordPress</span>
+                <a href="https://camicomforthomes.ca" class="btn-outline small-btn">Preview</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-card">
+            <div class="portfolio-image"><img src="images/2.png" alt="Project 2"></div>
+            <div class="portfolio-content">
+              <h4>Luxury Car Service</h4>
+              <div class="skills-row">
+                <span class="project-skills">WordPress</span>
+                <a href="https://luxmotorsdxb.com" class="btn-outline small-btn">Preview</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-card">
+            <div class="portfolio-image"><img src="images/3.png" alt="Project 3"></div>
+            <div class="portfolio-content">
+              <h4>Modern Business Consulting</h4>
+              <div class="skills-row">
+                <span class="project-skills">WordPress</span>
+                <a href="https://stagingweblink.com/demo/desverso/" class="btn-outline small-btn">Preview</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-card">
+            <div class="portfolio-image"><img src="images/4.png" alt="Project 4"></div>
+            <div class="portfolio-content">
+              <h4>Goat & Livestock Business</h4>
+              <div class="skills-row">
+                <span class="project-skills">WordPress</span>
+                <a href="https://stagingweblink.com/demo/goat/" class="btn-outline small-btn">Preview</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Repeat 1-4 for cards 5-8 -->
+          <div class="portfolio-card">
+            <div class="portfolio-image"><img src="images/5.png" alt="Project 5"></div>
+            <div class="portfolio-content">
+              <h4>Creative Bubble Art & Design</h4>
+              <div class="skills-row">
+                <span class="project-skills">Frontend</span>
+                <a href="https://stagingweblink.com/demo/bubbleart/" class="btn-outline small-btn">Preview</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-card">
+            <div class="portfolio-image"><img src="images/6.png" alt="Project 6"></div>
+            <div class="portfolio-content">
+              <h4>Vivid Creative Digital Agency</h4>
+              <div class="skills-row">
+                <span class="project-skills">WordPress</span>
+                <a href="https://stagingweblink.com/demo/vivid/" class="btn-outline small-btn">Preview</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-card">
+            <div class="portfolio-image"><img src="images/7.png" alt="Project 7"></div>
+            <div class="portfolio-content">
+              <h4>Modern Bakery & Pastry Shop</h4>
+              <div class="skills-row">
+                <span class="project-skills">WordPress</span>
+                <a href="https://stagingweblink.com/demo/knead/" class="btn-outline small-btn">Preview</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-card">
+            <div class="portfolio-image"><img src="images/8.png" alt="Project 8"></div>
+            <div class="portfolio-content">
+              <h4>Creative Restaurant & Dining</h4>
+              <div class="skills-row">
+                <span class="project-skills">WordPress</span>
+                <a href="https://stagingweblink.com/demo/clavano/" class="btn-outline small-btn">Preview</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Repeat 1-4 for cards 9-12 -->
+          <div class="portfolio-card">
+            <div class="portfolio-image"><img src="images/9.png" alt="Project 9"></div>
+            <div class="portfolio-content">
+              <h4>True Native Lifestyle Culture</h4>
+              <div class="skills-row">
+                <span class="project-skills">WordPress</span>
+                <a href="https://stagingweblink.com/demo/truenative/" class="btn-outline small-btn">Preview</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-card">
+            <div class="portfolio-image"><img src="images/10.png" alt="Project 10"></div>
+            <div class="portfolio-content">
+              <h4>Robinson Tennis Academy</h4>
+              <div class="skills-row">
+                <span class="project-skills">WordPress</span>
+                <a href="https://stagingweblink.com/demo/robinson/" class="btn-outline small-btn">Preview</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-card">
+            <div class="portfolio-image"><img src="images/11.png" alt="Project 11"></div>
+            <div class="portfolio-content">
+              <h4>VGS Solar</h4>
+              <div class="skills-row">
+                <span class="project-skills">WordPress</span>
+                <a href="https://stagingweblink.com/demo/vgs/" class="btn-outline small-btn">Preview</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-card">
+            <div class="portfolio-image"><img src="images/12.png" alt="Project 12"></div>
+            <div class="portfolio-content">
+              <h4>E-Commerce Shopping</h4>
+              <div class="skills-row">
+                <span class="project-skills">Frontend</span>
+                <a href="https://www.linkedin.com/in/allahdino/" class="btn-outline small-btn">Preview</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Repeat 1-4 for cards 13-16 -->
+          <div class="portfolio-card">
+            <div class="portfolio-image"><img src="images/13.png" alt="Project 13"></div>
+            <div class="portfolio-content">
+              <h4>Real Estate Mortgage</h4>
+              <div class="skills-row">
+                <span class="project-skills">WordPress</span>
+                <a href="https://powerhausmortgages.com/" class="btn-outline small-btn">Preview</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-card">
+            <div class="portfolio-image"><img src="images/14.png" alt="Project 14"></div>
+            <div class="portfolio-content">
+              <h4>Aesthetics & Cosmetic Clinic</h4>
+              <div class="skills-row">
+                <span class="project-skills">WordPress</span>
+                <a href="https://marleepatriciaaesthetics.ca/" class="btn-outline small-btn">Preview</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-card">
+            <div class="portfolio-image"><img src="images/15.png" alt="Project 15"></div>
+            <div class="portfolio-content">
+              <h4>AI‑Driven Trading Analytics</h4>
+              <div class="skills-row">
+                <span class="project-skills">WordPress</span>
+                <a href="https://quickpips.ai/" class="btn-outline small-btn">Preview</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-card">
+            <div class="portfolio-image"><img src="images/16.png" alt="Project 16"></div>
+            <div class="portfolio-content">
+              <h4>Headwear E-Commerce Store</h4>
+              <div class="skills-row">
+                <span class="project-skills">WordPress</span>
+                <a href="https://heads-hy.ca/" class="btn-outline small-btn">Preview</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Pagination -->
+        <div class="portfolio-pagination" id="portfolioPagination">
+          <button class="prev-page">&#8592;</button>
+          <span class="page-numbers" id="pageNumbers"></span>
+          <button class="next-page">&#8594;</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonial" class="testimonial-section">
+
+    <div class="container">
+
+      <span class="section-tag">Testimonials</span>
+      <h2 class="section-title">What Clients Say</h2>
+
+      <div class="testimonial-slider">
+
+        <button class="slider-arrow prev">&#10094;</button>
+
+        <div class="testimonial-wrapper">
+
+          <div class="testimonial-track">
+
+            <div class="testimonial-card">
+              <div class="rating">
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+</div>
+              <p class="view">
+                Allah Dino was very quick to respond and got the job done efficiently,
+                exactly what we were looking for!
+              </p>
+              <div class="client-info">
+                <h4>Jessica</h4>
+                <span>Australia • Fiverr</span>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="rating">
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+</div>
+              <p class="view">
+                Allah Dino did an outstanding job fixing the mobile Preview on my website.
+                He worked incredibly fast and delivered exactly what I needed.
+              </p>
+              <div class="client-info">
+                <h4>Faandam</h4>
+                <span>United States • Fiverr</span>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="rating">
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+</div>
+              <p class="view">
+                The contractor went above the requirements and answered all my questions
+                thoroughly and politely.
+              </p>
+              <div class="client-info">
+                <h4>Ronak</h4>
+                <span>Canada • Fiverr</span>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="rating">
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+</div>
+              <p class="view">
+                Allah Dino completed multiple WordPress projects for our business.
+                Highly recommended developer.
+              </p>
+              <div class="client-info">
+                <h4>Kashif</h4>
+                <span>Pakistan .Local Client</span>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="rating">
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+</div>
+              <p class="view">
+                Very professional developer. The website was delivered exactly as required.
+              </p>
+              <div class="client-info">
+                <h4>Hamza</h4>
+                <span>Pakistan .Local Client</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <button class="slider-arrow next">&#10095;</button>
+
+      </div>
+
+      <div class="testimonial-dots"></div>
+
+    </div>
+  </section>
+
+
+
+  <!-- cv -->
+<section id="education" class="resume-section">
+  <div class="container">
+
+    <!-- Section Tag & Title -->
+    <span class="section-tag">My Journey</span>
+    <h2 class="section-title">Education & Experience</h2>
+
+    <div class="resume-grid">
+
+      <div class="resume-box">
+        <div class="icon">🎓</div>
+        <div class="info">
+          <span class="year">2019 - 2023</span>
+          <h3>Bachelor of IT</h3>
+          <p>QUEST Nawabshah</p>
+        </div>
+      </div>
+
+      <div class="resume-box">
+        <div class="icon">📘</div>
+        <div class="info">
+          <span class="year">2016 - 2018</span>
+          <h3>Pre-Engineering</h3>
+          <p>Govt Boys Higher Secondary School Jhol</p>
+        </div>
+      </div>
+
+      <div class="resume-box">
+        <div class="icon">🔬</div>
+        <div class="info">
+          <span class="year">2011 - 2016</span>
+          <h3>Science</h3>
+          <p>Govt Boys High School RAHR</p>
+        </div>
+      </div>
+
+      <div class="resume-box">
+        <div class="icon">💻</div>
+        <div class="info">
+          <span class="year">May 2025 - Present</span>
+          <h3>WordPress Developer</h3>
+          <p>HyperHive – Bahria Town Karachi</p>
+        </div>
+      </div>
+
+      <div class="resume-box">
+        <div class="icon">🖥️</div>
+        <div class="info">
+          <span class="year">July 2024 - April 2025</span>
+          <h3>WordPress & Frontend Developer</h3>
+          <p>DivsnPixel – Karachi</p>
+        </div>
+      </div>
+
+      <div class="resume-box">
+        <div class="icon">⚡</div>
+        <div class="info">
+          <span class="year">Feb 2024 - May 2024</span>
+          <h3>Frontend Developer</h3>
+          <p>SAK PVT LTD – Karachi</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="dev-contact-section">
+<div class="dev-contact-container">
+
+<div class="dev-contact-grid">
+
+<!-- LEFT -->
+<div class="dev-contact-left">
+
+<h2 class="dev-contact-title">LET'S WORK TOGETHER</h2>
+
+<p class="dev-contact-desc">
+I'm always open to discussing new projects, creative ideas,
+or opportunities to build modern and high-performance web experiences.
+</p>
+
+<div class="dev-contact-info">
+
+<div class="dev-info-item">
+<div class="dev-info-icon">
+<i class="fa-solid fa-envelope"></i>
+</div>
+
+<div class="dev-info-text">
+<h4>Email</h4>
+<p>allahdino.devloper@gmail.com</p>
+</div>
+</div>
+
+
+<div class="dev-info-item">
+<div class="dev-info-icon">
+<i class="fa-solid fa-phone"></i>
+</div>
+
+<div class="dev-info-text">
+<h4>Phone</h4>
+<p>+92 3238285152</p>
+</div>
+</div>
+
+
+<div class="dev-info-item">
+<div class="dev-info-icon">
+<i class="fa-solid fa-location-dot"></i>
+</div>
+
+<div class="dev-info-text">
+<h4>Location</h4>
+<p>District Sanghar, Sindh, Pakistan</p>
+</div>
+</div>
+
+</div>
+
+
+<h4 class="dev-social-title">CONNECT WITH ME</h4>
+
+<div class="dev-social-icons">
+
+<a href="https://web.facebook.com/allahdino.jp" class="dev-social">
+<i class="fab fa-facebook-f"></i>
+<span>Facebook</span>
+</a>
+
+<a href="https://www.linkedin.com/in/allahdino/" class="dev-social">
+<i class="fab fa-linkedin-in"></i>
+<span>LinkedIn</span>
+</a>
+
+<a href="https://www.sikaty.com/profile/seller/dashboard" class="dev-social">
+<i class="fa-solid fa-briefcase"></i>
+<span>Sikaty</span>
+</a>
+
+<a href="https://github.com/Allahdino123" class="dev-social">
+<i class="fab fa-github"></i>
+<span>Github</span>
+</a>
+
+</div>
+
+</div>
+
+
+<!-- RIGHT -->
+<!-- RIGHT -->
+<div class="dev-contact-right">
+
+<h2 class="dev-form-title">SEND ME A MESSAGE</h2>
+
+<form class="dev-contact-form">
+
+  <div class="dev-form-row">
+    <input type="text" name="first_name" placeholder="First Name">
+    <input type="text" name="last_name" placeholder="Last Name">
+  </div>
+
+  <div class="dev-form-row">
+    <input type="email" name="email" placeholder="Email Address">
+    <input type="text" name="phone" placeholder="Phone Number">
+  </div>
+
+  <input type="text" name="subject" placeholder="Subject">
+
+  <textarea name="message" placeholder="Your Message"></textarea>
+
+  <button type="submit">Send Message</button>
+
+</form>
+
+</div>
+
+</div>
+</div>
+</section>
+
+
+
+
+<footer class="main-footer">
+
+<div class="container">
+
+<div class="footer-grid">
+
+<!-- COLUMN 1 -->
+<div class="footer-col align-items-left">
+
+<img src="images/LOGO.png" class="footer-logo">
+
+<p>
+I build modern and responsive websites with clean code
+and beautiful UI design.
+</p>
+
+</div>
+
+
+<!-- COLUMN 2 -->
+<div class="footer-col">
+
+<h4>Navigation</h4>
+
+<ul>
+
+<li><a href="#">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Skills</a></li>
+<li><a href="#">Portfolio</a></li>
+<li><a href="#">Contact</a></li>
+
+</ul>
+
+</div>
+
+
+<!-- COLUMN 3 -->
+<div class="footer-col">
+
+<h4>Services</h4>
+
+<ul>
+
+<li><a href="#">Web Design</a></li>
+<li><a href="#">Frontend Developer</a></li>
+<li><a href="#">WordPress Developer</a></li>
+<li><a href="#">Website Fixing</a></li>
+
+</ul>
+
+</div>
+
+
+<!-- COLUMN 4 -->
+<div class="footer-col">
+
+<h4>Connect</h4>
+
+<p>Email: allahdino.devloper@gmail.com</p>
+
+<p>Phone: +92 3490396533</p>
+
+<div class="footer-social">
+
+<a href="https://web.facebook.com/allahdino.jp"><i class="fab fa-facebook-f"></i></a>
+<a href="https://www.linkedin.com/in/allahdino/"><i class="fab fa-linkedin-in"></i></a>
+<a href="#"><i class="fab fa-twitter"></i></a>
+<a href="https://github.com/Allahdino123"><i class="fab fa-github"></i></a>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- COPYRIGHT -->
+
+<div class="footer-bottom">
+
+<p>© 2025 Your Portfolio. All Rights Reserved.</p>
+
+</div>
+
+</div>
+
+</footer>
+
+
+  <!-- ✅ Bootstrap JS (for responsive toggler) -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+<script>
+// Mobile menu toggle
+const hamburger = document.querySelector(".navbar-toggler");
+const mobileMenu = document.querySelector(".navbar-collapse");
+
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("active");
+  mobileMenu.classList.toggle("show");
+});
+</script>
+<script>
+  // Counter Animation
+  function animateCounter(id, target) {
+    const element = document.getElementById(id);
+    let count = 0;
+    const speed = 20;
+    const increment = target / 100;
+
+    const interval = setInterval(() => {
+      count += increment;
+      if (count >= target) {
+        count = target;
+        clearInterval(interval);
+      }
+      element.textContent = Math.floor(count);
+    }, speed);
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    animateCounter("experienceCounter", 3);     // Years of experience
+    animateCounter("projectsCounter", 100);     // Projects completed
+    animateCounter("clientsCounter", 10);        // Happy clients
+    animateCounter("awardsCounter", 100);         // Awards won
+  });
+
+  // Skill bar Animation
+  document.addEventListener('DOMContentLoaded', () => {
+    const fills = document.querySelectorAll('.skill-fill');
+    fills.forEach(fill => {
+      const width = fill.getAttribute('data-width');
+      setTimeout(() => {
+        fill.style.width = width;
+      }, 200);
+    });
+  });
+</script>
+<!-- JS -->
+
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const portfolioGrid = document.getElementById('portfolioGrid');
+  const pageNumbers = document.getElementById('pageNumbers');
+  const prevPage = document.querySelector('.prev-page');
+  const nextPage = document.querySelector('.next-page');
+
+  const cards = Array.from(portfolioGrid.children);
+
+  function getCardsPerPage() {
+    return window.innerWidth <= 768 ? 3 : 8; // Mobile = 3, Desktop = 8
+  }
+
+  let cardsPerPage = getCardsPerPage();
+  let currentPage = 1;
+
+  function showPage(page) {
+    currentPage = page;
+    const start = (page - 1) * cardsPerPage;
+    const end = start + cardsPerPage;
+
+    cards.forEach((card, i) => {
+      card.style.display = (i >= start && i < end) ? 'block' : 'none';
+    });
+
+    // Layout
+    if (window.innerWidth <= 768) {
+      portfolioGrid.style.display = 'flex';
+      portfolioGrid.style.flexWrap = 'wrap';
+      portfolioGrid.style.gap = '10px';
+      cards.forEach(card => {
+        card.style.flex = '0 0 calc(33.33% - 10px)';
+      });
+    } else {
+      // Desktop layout: 4 cards per row
+      portfolioGrid.style.display = 'flex';
+      portfolioGrid.style.flexWrap = 'wrap';
+      portfolioGrid.style.gap = '20px'; // adjust gap for desktop
+      cards.forEach(card => {
+        card.style.flex = '0 0 calc(25% - 20px)'; // 4 cards per row
+      });
+    }
+
+    updatePagination();
+  }
+
+  function updatePagination() {
+    pageNumbers.innerHTML = '';
+    const totalPages = Math.ceil(cards.length / cardsPerPage);
+    for (let i = 1; i <= totalPages; i++) {
+      const span = document.createElement('span');
+      span.textContent = i;
+      span.className = 'page-number';
+      if (i === currentPage) span.classList.add('active');
+      span.addEventListener('click', () => showPage(i));
+      pageNumbers.appendChild(span);
+    }
+  }
+
+  prevPage.addEventListener('click', () => {
+    if (currentPage > 1) showPage(currentPage - 1);
+  });
+
+  nextPage.addEventListener('click', () => {
+    const totalPages = Math.ceil(cards.length / cardsPerPage);
+    if (currentPage < totalPages) showPage(currentPage + 1);
+  });
+
+  window.addEventListener('resize', () => {
+    cardsPerPage = getCardsPerPage();
+    showPage(1); // Reset page on resize
+  });
+
+  // Initial display
+  showPage(1);
+});
+</script>
+
+
+
+
+
+<script>
+
+  const track = document.querySelector(".testimonial-track");
+  let cards = document.querySelectorAll(".testimonial-card");
+
+  const next = document.querySelector(".next");
+  const prev = document.querySelector(".prev");
+  const dotsContainer = document.querySelector(".testimonial-dots");
+
+  let index = 0;
+  let autoSlide;
+
+  const cardGap = 25;
+
+
+  /* -------- CLONE FIRST CARDS FOR SMOOTH LOOP -------- */
+
+  for (let i = 0; i < 4; i++) {
+    let clone = cards[i].cloneNode(true);
+    track.appendChild(clone);
+  }
+
+  cards = document.querySelectorAll(".testimonial-card");
+
+
+  /* -------- CREATE DOTS -------- */
+
+  const totalDots = cards.length - 4;
+
+  for (let i = 0; i < totalDots; i++) {
+
+    const dot = document.createElement("span");
+
+    if (i === 0) dot.classList.add("active");
+
+    dot.addEventListener("click", () => {
+      index = i;
+      updateSlider();
+    });
+
+    dotsContainer.appendChild(dot);
+
+  }
+
+
+  /* -------- UPDATE SLIDER -------- */
+
+  function updateSlider() {
+
+    const cardWidth = cards[0].offsetWidth + cardGap;
+
+    track.style.transform =
+      `translateX(-${index * cardWidth}px)`;
+
+    document.querySelectorAll(".testimonial-dots span")
+      .forEach((dot, i) => {
+
+        dot.classList.toggle("active", i === index);
+
+      });
+
+  }
+
+
+  /* -------- NEXT / PREV -------- */
+
+  function nextSlide() {
+
+    index++;
+
+    if (index > cards.length - 5) {
+      index = 0;
+    }
+
+    updateSlider();
+
+  }
+
+  function prevSlide() {
+
+    index--;
+
+    if (index < 0) {
+      index = cards.length - 5;
+    }
+
+    updateSlider();
+
+  }
+
+  next.addEventListener("click", nextSlide);
+  prev.addEventListener("click", prevSlide);
+
+
+  /* -------- AUTO SLIDE -------- */
+
+  function startAutoSlide() {
+
+    autoSlide = setInterval(nextSlide, 7000);
+
+  }
+
+  function stopAutoSlide() {
+
+    clearInterval(autoSlide);
+
+  }
+
+  document.querySelector(".testimonial-slider")
+    .addEventListener("mouseenter", stopAutoSlide);
+
+  document.querySelector(".testimonial-slider")
+    .addEventListener("mouseleave", startAutoSlide);
+
+  startAutoSlide();
+
+</script>
+
+</html>
