@@ -2311,34 +2311,7 @@ grid-template-columns:1fr;
 
 /* ====================== MOBILE RESPONSIVE ====================== */
 @media(max-width:991px){
-  .hero{
-    padding:30px 15px; /* top-bottom 30px, left-right 15px */
-  }
 
-  .hero-title{
-    font-size:38px;
-  }
-
-  .hero-text{
-    max-width:100%;
-  }
-
-  .hero-buttons{
-    flex-direction:row;
-    gap:12px;
-  }
-
-  .hero-right{
-    margin-top:30px;
-  }
-
-  .hero-image img{
-    width:100%;
-    max-width:100%;
-    transform:rotate(0deg);
-    margin-top:15px;
-  }
-}
 
 
 /* ABOUT */
