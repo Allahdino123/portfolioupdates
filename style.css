@@ -2088,6 +2088,7 @@ grid-template-columns:1fr;
 @media (max-width:768px){
 .navbar{
   width: 100%;
+  
 }
   /* Hamburger */
   .navbar-toggler {
@@ -2193,7 +2194,7 @@ grid-template-columns:1fr;
 
 .hero-title{
   text-align:left;
-  font-size:52px;
+  font-size:35px;
   font-weight:700;
   line-height:1.2;
   margin-top:12px;
@@ -2221,7 +2222,7 @@ grid-template-columns:1fr;
   color:#bbb;
   margin:20px 0 30px;
   line-height:1.7;
-  width: 420px;
+  width: 100%;
 }
 
 /* BUTTONS */
@@ -2311,10 +2312,37 @@ grid-template-columns:1fr;
 
 /* ====================== MOBILE RESPONSIVE ====================== */
 @media(max-width:991px){
+  .hero{
+    padding:30px 15px; /* top-bottom 30px, left-right 15px */
+  }
+
+  .hero-title{
+    font-size:38px;
+  }
+
+  .hero-text{
+    max-width:100%;
+  }
+
+  .hero-buttons{
+    flex-direction:row;
+    gap:12px;
+  }
+
+  .hero-right{
+    margin-top:30px;
+  }
+
+  .hero-image img{
+    width:100%;
+    max-width:100%;
+    transform:rotate(0deg);
+    margin-top:15px;
+  }
+}
 
 
-
-
+/* ABOUT */
 
 .about-wrapper {
     flex-direction: column-reverse;
